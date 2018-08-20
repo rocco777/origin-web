@@ -1,0 +1,39 @@
+.btn-position {
+    margin-left: 40%;
+    margin-top: 2px;
+}
+
+.btn {
+    background: transparent;
+    color: red;
+    font-family: 'Baloo Bhai', cursive;
+    width: 110px;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 7px;
+    width: 100%;
+    background-color: coral;
+}
+
+#logo a {
+    background: rgb(93, 171, 216);
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 40px;
+    font-size: 1rem;
+    line-height: 2rem;
+    position: relative;
+    transition: 0.5s;
+}
+
+#logo a:hover {
+    background: red;
+    color: #fff;
+}
