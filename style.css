@@ -5,25 +5,26 @@
 
 .btn {
     background: transparent;
-    color: red;
-    font-family: 'Baloo Bhai', cursive;
+    color: rgb(255, 255, 255);
+    font-family: 'Allerta', sans-serif;
     width: 110px;
     font-size: 20px;
 }
+
 
 .footer {
     position: absolute;
     bottom: 0;
     padding-top: 7px;
     width: 100%;
-    background-color: coral;
+    background-color: rgba(70, 70, 70, 0.212);
 }
 
 #logo a {
-    background: rgb(93, 171, 216);
+    background: rgb(151, 204, 235);
     color: #fff;
     text-decoration: none;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Ropa Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     padding: 5px 40px;
@@ -34,6 +35,21 @@
 }
 
 #logo a:hover {
-    background: red;
+    background: rgb(157, 221, 221);
     color: #fff;
+}
+
+.footer-text {
+    font-family: 'Allerta', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.tittle-background {
+    background-color: rgba(36, 36, 36, 0.753);
+}
+
+#tittle button:hover {
+    color: rgb(255, 255, 255);
 }

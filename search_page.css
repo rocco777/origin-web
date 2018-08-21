@@ -1,3 +1,7 @@
+.container {
+    width: 95%;
+}
+
 .left-part {
     height: 80%;
     background-color: rgb(56, 121, 36);
@@ -9,10 +13,22 @@
 }
 
 .page-position {
-    margin: 8%;
+    margin-top: 6%;
 }
 
 .left-part-col{
     height: 20vh;
     width: 100vh;
+    overflow:hidden;
+    padding-bottom: 5%;
+}
+
+.btn-text {
+    text-align: left;
+    padding: 1% 5% 5% 5%;
+
+}
+
+.test:hover {
+    background-color: aquamarine;
 }
