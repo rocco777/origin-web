@@ -1,11 +1,6 @@
-.container {
-    width: 95%;
-}
-
 .left-part {
     height: 80%;
     background-color: rgba(218, 214, 196, 0.671);
-
 }
 
 .right-part {
@@ -14,23 +9,38 @@
 }
 
 .page-position {
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
-.left-part-col{
+.left-part-col {
     height: 20vh;
     width: 100vh;
-    overflow:hidden;
+    overflow: hidden;
     padding-bottom: 5%;
 }
 
 .btn-text {
     text-align: left;
     padding: 1% 5% 5% 5%;
-
 }
 
 .left-part-btn:hover {
-    background-color:rgb(218, 214, 196);
+    background-color: rgb(218, 214, 196);
+}
 
+.search {
+    font-size: 20px;
+    padding: 1px;
+    width: 50%;
+
+}
+
+.box {
+    margin-left: -15px;
+    margin-bottom: 10px; 
+}
+
+.test {
+    border-style: solid;
+    border-width: thin;
 }
