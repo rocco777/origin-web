@@ -1,11 +1,19 @@
+.background{
+    background-color: rgba(240, 241, 233, 0.562);
+}
+
 .left-part {
     height: 80%;
-    background-color: rgba(218, 214, 196, 0.671);
+    background-color: rgba(54, 54, 54, 0.295);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
 }
 
 .right-part {
     height: 80%;
-    background-color: rgb(147, 85, 206);
+    background-color: rgba(193, 194, 184, 0.432);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
 }
 
 .page-position {
@@ -25,14 +33,25 @@
 }
 
 .left-part-btn:hover {
-    background-color: rgb(218, 214, 196);
+    background-color: rgba(54, 54, 54, 0.384);
 }
 
 .search {
     font-size: 20px;
-    padding: 1px;
-    width: 50%;
+    padding: 1px 20px 5px 35px;
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('../images/SearchLogo.gif');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+.search:focus {
+    width: 60%;
 }
 
 .box {
@@ -40,7 +59,34 @@
     margin-bottom: 10px; 
 }
 
-.test {
+.outSideBorder {
     border-style: solid;
     border-width: thin;
+    border-color: #ccc  #ccc #fff  #ccc;
+    border-top-left-radius:10px;
+}
+
+.outSideBorder-mid {
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff  #ccc #fff  #ccc;
+}
+
+.outSideBorder-last {
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff  #ccc #ccc  #ccc;
+    border-bottom-left-radius: 10px;
+}
+
+.right-part-col {
+    height: 94%;
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.699);
+    margin-top: 3%;
+    margin-left: 3%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(175, 167, 150, 0.562);
+    border-radius:10px;
 }
