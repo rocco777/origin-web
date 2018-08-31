@@ -1,14 +1,13 @@
 <html>
-
 <head>
+    <meta property="og:page" content="{{templates.search}}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search_page.css">
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
-    <meta property="og:page" content="{{templates.search}}" />
 </head>
-
 <body>
     <div class="tittle-background">
         <span id="logo">
@@ -21,27 +20,14 @@
             <button type="button" class="btn btn-link">Support us !</button>
         </div>
     </div>
-
-
-    <div>
-        {{page}}
+    <div class="page">
+        {{{page}}}
     </div>
-
-
     <footer class="footer">
         <div class="container">
             <div class="text-muted footer-text">plz give me money !!! Donate GD you will get future</div>
         </div>
     </footer>
-
-
-
-
-
-
-
-
 </body>
-
 
 </html>

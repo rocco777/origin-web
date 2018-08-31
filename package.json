@@ -1,0 +1,29 @@
+{
+  "name": "norman",
+  "version": "0.0.1",
+  "description": "new-website",
+  "main": "webserver.js",
+  "scripts": {
+    "startWeb": "node webServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdnjs/new-website.git"
+  },
+  "author": "norman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdnjs/new-website/issues"
+  },
+  "homepage": "https://github.com/cdnjs/new-website",
+  "engines": {
+    "node": "^8"
+  },
+  "dependencies": {
+    "condense-whitespace": "^1.0.0",
+    "express": "^4.16",
+    "mustache": "^2.3.0",
+    "newline-remove": "^1.0.2",
+    "throng": "^2.0.1"
+  }
+}

@@ -16,8 +16,11 @@ function start() {
     var express = require('express');
     var app = express();
 
+    console.log("__dirname = ", __dirname);
+    app.use(express.static(__dirname + "/public"));
+
     app.get('/', function (req, res) {
-        res.send(generatePage);
+        res.send(page);
     });
 
     app.listen(PORT, function () {
@@ -32,8 +35,8 @@ function start() {
     };
 
     var templates = {
-        layout: getTemplate('../templates/layout.html'),
-        search: getTemplate('../templates/search.html'),
+        layout: getTemplate('public/templates/layout.html'),
+        search: getTemplate('public/templates/search.html'),
     };
 
     function generatePage() {
@@ -43,4 +46,6 @@ function start() {
         fullContent = Mustache.render(templates.layout, typepage);
         return fullContent;
     };
+
+    var page = generatePage();
 };
