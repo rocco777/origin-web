@@ -7,6 +7,7 @@
     background-color: rgba(150, 93, 93, 0.315);
     border-top-left-radius:10px;
     border-bottom-left-radius:10px;
+    overflow: auto;
 }
 
 .right-part {
@@ -26,6 +27,7 @@
     overflow: hidden;
     padding-bottom: 5%;
 }
+
 
 .btn-text {
     text-align: left;
@@ -89,4 +91,5 @@
     border-width: thin;
     border-color: rgba(149, 199, 214, 0.548);
     border-radius:10px;
+    overflow: auto;
 }
